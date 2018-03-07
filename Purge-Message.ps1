@@ -1,11 +1,10 @@
 ﻿#Specify the sending email address and subject. Both are required
 $sender = "spammer@nowhere.com"
-$subject = "Please Delete Me"
+$subject = "View Your Invoice"
 
 #How many hours back to check
-$hours = "52"
+$hours = "2"
 
-#Do not modify anything below this line unless you know what you're doing
 #########################################################################
 $title = "Message Search"
 $message = "Do you want to search for replies and forwards as well? (This will extend the time of the search)"
