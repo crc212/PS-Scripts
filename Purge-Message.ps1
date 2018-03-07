@@ -17,7 +17,7 @@ switch ($result)
         0 {$rfcheck = "Y"}
         1 {$rfcheck = "N"}
     }
-$targetMailbox = "virus@wrberkley.com"
+$targetMailbox = "sharedmailbox@company.com"
 [string]$date = Get-Date -Format yyyy.MM.dd
 $targetFolderSearch = $date + " Message Search"
 $targetFolderDelete = $date + " Message Delete"
